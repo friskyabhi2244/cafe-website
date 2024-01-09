@@ -1,0 +1,115 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+}
+body{
+    padding: 20px;
+}
+.card{
+    width: 1200px;
+    height: 650px;
+    border:1px solid black;
+    background-image:url('cafe.jpg');
+    background-size:cover;
+    background-position: center;
+    position: relative;
+    color:rgb(252, 255, 252);
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    
+}
+.overlay{
+    position:absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.37);
+ 
+    
+}
+.button{
+    background-color: #fd0c04;
+    border: 2px solid rgb(247, 242, 242);
+    right:2px;
+    bottom: 2px;
+}
+.navbar{
+    text-align-last: right;
+    background-color:black;
+    list-style: none;
+    padding-left: 0;
+    height: 60px;
+
+}
+.navbar li a{
+    display: inline-block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: honeydew;
+}
+.navbar li {
+    display: inline-block;
+}
+.navbar li a:hover{
+    background-color: rgba(253, 252, 252, 0.555);
+}
+ .vnavbar{
+    background-color:black;
+    list-style: none;
+    padding-left: 0;
+    height: 230px;
+    width: 200px;
+}
+.vnavbar li a{
+    display: block;
+    text-decoration: none;
+    padding: 10px 20px;
+    color: honeydew;
+   
+}
+.vnavbar li:hover{
+    background-color: rgba(253, 252, 252, 0.555);
+}
+
+.dropdown{
+    text-align-last: left;
+    width: 180px;
+    background-color:black;
+    position: absolute;
+    padding: 0;
+    display: none;
+}
+.abhi:hover .dropdown{
+    display: block;
+}
+.abhi a i{
+    display: inline-block;
+    margin-left: 8px;
+    
+}
+.abhi li {
+    display:block;
+}
+.whatsapp{
+     position: fixed;
+     right: 20px;
+     bottom: 20px;
+}
+.whatsapp a{
+
+}
+.whatsapp a img{
+    width: 50px;
+}
+.call{
+    position: fixed;
+    right: 10px;
+   bottom: 90px;
+}
+.call a{
+
+}
+.call a img{
+    width: 70px;
+}
